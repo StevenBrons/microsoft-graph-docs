@@ -33,14 +33,15 @@ PATCH /education/classes/{id}
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance, don't include existing values that haven't changed.
 
+<!-- Please verify the revised description here. -->
+
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |description|String| Description of the class.|
 |displayName|String| Name of the class.|
-|mailNickname|String| Email alias for sending email to all users if that feature is enabled. |
-<!-- Please verify the revised description here. -->
+|mailNickname|String| Email alias for sending email to all users if that feature is enabled.|
 |classCode|String| Class code used by the school.|
-|externalId|String| ID of the class from the syncing system. |
+|externalId|String| ID of the class from the syncing system.|
 |externalName|String|Name of the class in the syncing system.|
 |externalSource|string| How this class was created. The possible values are: `sis`, `manual`, `enum_sentinel`.|
 
